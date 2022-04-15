@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -22,6 +23,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.logo{
+font-family: 'Monoton', cursive;
+font-size: calc(10px + 4vmin);
+font-weight: 60 !important;
 }
 
 .App-link {

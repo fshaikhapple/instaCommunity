@@ -11,17 +11,15 @@ import { createFirestoreInstance } from "redux-firestore";
 import { rootReducer } from "./ducks/reducers";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
-import * as serviceWorker from "./serviceWorker";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBJTFQkg95Aj-s_NsA77mco8ZVG2siLv4U",
-  authDomain: "react-redux-firebase-article.firebaseapp.com",
-  databaseURL: "https://react-redux-firebase-article.firebaseio.com",
-  projectId: "react-redux-firebase-article",
-  storageBucket: "react-redux-firebase-article.appspot.com",
-  messagingSenderId: "781345165856",
-  appId: "1:781345165856:web:45fd42a60e5bb365172245",
-  measurementId: "G-XFR3YXLCGW",
+  apiKey: "AIzaSyDiN5zP31s25mWJGH8aWbOH9qd8UttWTOk",
+  authDomain: "insta-post-bc0b4.firebaseapp.com",
+  projectId: "insta-post-bc0b4",
+  storageBucket: "insta-post-bc0b4.appspot.com",
+  messagingSenderId: "989600079900",
+  appId: "1:989600079900:web:e9616f883370d626f33fd9",
+  measurementId: "G-S0E47SMFTY"
 };
 
 const rrfConfig = {
@@ -53,8 +51,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
